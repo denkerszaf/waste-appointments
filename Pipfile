@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 mypy = "*"
 pre-commit = "*"
+icalendar = "*"
+datetime = "*"
 
 [dev-packages]
 black = "*"
