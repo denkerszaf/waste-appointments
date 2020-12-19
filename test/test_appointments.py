@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 
-from src.appointments import new_event_with_alarm
+from src.appointments import main, new_event_with_alarm
 
 
 def test_event_contains_alarm():
@@ -42,3 +42,15 @@ def test_alarm_honors_dst_in_winter():
     )
 
     assert actual.dst() == timedelta(0, 0)
+
+
+def test_output_written_to_file(tmp_path):
+    inputfile = tmp_path / "input.json"
+    outputfile = tmp_path / "output.ics"
+
+    with open(inputfile, "w") as file:
+        file.write('[{"date": "2020-10-26", "type": "testtermin"}]')
+
+    main(inputfile, outputfile)
+
+    assert outputfile.exists()

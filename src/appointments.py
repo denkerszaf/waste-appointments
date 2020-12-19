@@ -45,8 +45,8 @@ def new_event_with_alarm(appointment: dict) -> Event:
     return event
 
 
-def main():
-    with open("data/Papiermüll.json") as json_file:
+def main(inputfile, outputfile):
+    with open(inputfile) as json_file:
         appointments = json.load(json_file)
 
     cal = Calendar()
@@ -56,9 +56,9 @@ def main():
     for appointment in appointments:
         cal.add_component(new_event_with_alarm(appointment))
 
-    with open("output.ics", "wb") as ical_file:
+    with open(outputfile, "wb") as ical_file:
         ical_file.write(cal.to_ical())
 
 
 if __name__ == "__main__":
-    main()
+    main("data/Papiermüll.json", "output.ics")
