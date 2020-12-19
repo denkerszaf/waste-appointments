@@ -1,9 +1,6 @@
-from datetime import datetime
-from appointments import new_event_with_alarm
+from datetime import datetime, timedelta
 
-
-def test_alarm_generation():
-    assert True
+from src.appointments import new_event_with_alarm
 
 
 def test_event_contains_alarm():
@@ -21,7 +18,27 @@ def test_alarm_has_timezone():
 def test_alarm_is_localized():
     actual = (
         new_event_with_alarm({"date": "1970-01-02", "type": "testtermin"})
-        .subcomponents[0]
-        .decoded("TRIGGER")
+            .subcomponents[0]
+            .decoded("TRIGGER")
     )
     assert actual.tzinfo is not None
+
+
+def test_alarm_honors_dst():
+    actual = (
+        new_event_with_alarm({"date": "2020-10-25", "type": "testtermin"})
+            .subcomponents[0]
+            .decoded("TRIGGER")
+    )
+
+    assert actual.dst() == timedelta(0, 3600)
+
+
+def test_alarm_honors_dst_in_winter():
+    actual = (
+        new_event_with_alarm({"date": "2020-10-26", "type": "testtermin"})
+            .subcomponents[0]
+            .decoded("TRIGGER")
+    )
+
+    assert actual.dst() == timedelta(0, 0)

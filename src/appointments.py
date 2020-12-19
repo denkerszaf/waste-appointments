@@ -1,7 +1,7 @@
 import datetime
 import json
-import pytz
 
+import tzlocal
 from icalendar import Alarm, Calendar, Event
 
 
@@ -29,16 +29,15 @@ def new_event(appointment: dict) -> Event:
 
 def new_event_with_alarm(appointment: dict) -> Event:
     event = new_event(appointment)
-    alarmtime = (
-        datetime.datetime(
-            event.decoded("dtstart").year,
-            event.decoded("dtstart").month,
-            event.decoded("dtstart").day,
-            19,
-            00,
-        )
-        - datetime.timedelta(days=1)
-    )
+    alarmtime = tzlocal.get_localzone().localize(datetime.datetime(
+        event.decoded("dtstart").year,
+        event.decoded("dtstart").month,
+        event.decoded("dtstart").day,
+        19,
+        00,
+        tzinfo=None,
+    ) - datetime.timedelta(days=1))
+
     event.add_component(
         new_alarm(alarmtime, " ".join([appointment["type"], "rausstellen"]))
     )
