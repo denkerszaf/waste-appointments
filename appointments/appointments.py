@@ -1,8 +1,9 @@
 import datetime
-import json
 
 import tzlocal
 from icalendar import Alarm, Calendar, Event
+
+from appointments import json_input
 
 
 def new_alarm(alarmtime, description):
@@ -46,8 +47,7 @@ def new_event_with_alarm(appointment: dict) -> Event:
 
 
 def main(inputfile, outputfile):
-    with open(inputfile) as json_file:
-        appointments = json.load(json_file)
+    appointments = json_input.load(inputfile)
 
     cal = Calendar()
     cal.add("prodid", "-//cal-generator//dn-kr.de//")
