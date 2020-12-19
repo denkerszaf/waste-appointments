@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 
-from src.appointments import main, new_event_with_alarm
+from appointments.appointments import main, new_event_with_alarm
 
 
 def test_event_contains_alarm():
