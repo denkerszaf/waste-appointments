@@ -4,6 +4,7 @@ import tzlocal
 from icalendar import Alarm, Calendar, Event
 
 from appointments import json_input
+from appointments.model.apps import App
 
 
 def new_alarm(alarmtime, description):
@@ -18,29 +19,27 @@ def new_alarm(alarmtime, description):
     return alarm
 
 
-def new_event(appointment: dict) -> Event:
+def new_event(appointment: App) -> Event:
     event = Event()
-    event.add("summary", appointment["type"])
-    current_date = datetime.date.fromisoformat(appointment["date"])
-    event.add("dtstart", current_date)
-    # print('At', current_date, "bitte den", appointment['type'], "rausstellen.")
+    event.add("summary", appointment.description)
+    event.add("dtstart", appointment.date)
 
     return event
 
 
-def new_event_with_alarm(appointment: dict) -> Event:
+def new_event_with_alarm(appointment: App) -> Event:
     event = new_event(appointment)
     alarmtime = tzlocal.get_localzone().localize(datetime.datetime(
-        event.decoded("dtstart").year,
-        event.decoded("dtstart").month,
-        event.decoded("dtstart").day,
+        appointment.date.year,
+        appointment.date.month,
+        appointment.date.day,
         19,
-        00,
+        0,
         tzinfo=None,
     ) - datetime.timedelta(days=1))
 
     event.add_component(
-        new_alarm(alarmtime, " ".join([appointment["type"], "rausstellen"]))
+        new_alarm(alarmtime, " ".join([appointment.description, "rausstellen"]))
     )
 
     return event
