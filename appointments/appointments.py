@@ -3,7 +3,7 @@ import datetime
 import tzlocal
 from icalendar import Alarm, Calendar, Event
 
-from appointments import json_input
+from appointments.config import json_input
 from appointments.model.apps import App
 
 

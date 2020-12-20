@@ -1,7 +1,7 @@
 from pathlib import Path
 
+from appointments.config.toml_input import load
 from appointments.model.apps import App
-from appointments.toml_input import load
 
 
 def test_empty_file(tmp_path: Path) -> None:

@@ -1,7 +1,7 @@
 import random
 import string
 
-from appointments.json_input import load
+from appointments.config.json_input import load
 
 
 def test_empty_list(tmp_path):
