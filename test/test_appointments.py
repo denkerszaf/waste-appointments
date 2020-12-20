@@ -1,23 +1,23 @@
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 
 from appointments.appointments import main, new_event_with_alarm
+from appointments.model.apps import App
 
 
 def test_event_contains_alarm():
-    actual = new_event_with_alarm({"date": "1970-01-02", "type": "testtermin"})
+    actual = new_event_with_alarm(App("testtermin", date(1970, 1, 2)))
     assert 1 == len(actual.subcomponents)
 
 
 def test_alarm_has_timezone():
-    alarm = new_event_with_alarm(
-        {"date": "1970-01-02", "type": "testtermin"}
-    ).subcomponents[0]
+    alarm = new_event_with_alarm(App("testtermin", date(1970, 1, 2))
+                                 ).subcomponents[0]
     assert isinstance(alarm.decoded("TRIGGER"), datetime)
 
 
 def test_alarm_is_localized():
     actual = (
-        new_event_with_alarm({"date": "1970-01-02", "type": "testtermin"})
+        new_event_with_alarm(App("testtermin", date(1970, 1, 2)))
             .subcomponents[0]
             .decoded("TRIGGER")
     )
@@ -26,7 +26,7 @@ def test_alarm_is_localized():
 
 def test_alarm_honors_dst():
     actual = (
-        new_event_with_alarm({"date": "2020-10-25", "type": "testtermin"})
+        new_event_with_alarm(App("testtermin", date(2020, 10, 25)))
             .subcomponents[0]
             .decoded("TRIGGER")
     )
@@ -36,7 +36,7 @@ def test_alarm_honors_dst():
 
 def test_alarm_honors_dst_in_winter():
     actual = (
-        new_event_with_alarm({"date": "2020-10-26", "type": "testtermin"})
+        new_event_with_alarm(App("testtermin", date(2020, 10, 26)))
             .subcomponents[0]
             .decoded("TRIGGER")
     )
