@@ -3,7 +3,7 @@ import datetime
 import tzlocal
 from icalendar import Alarm, Calendar, Event
 
-from appointments.config import json_input
+from appointments.config.configloader import ConfigLoader
 from appointments.model.apps import App
 
 
@@ -46,7 +46,7 @@ def new_event_with_alarm(appointment: App) -> Event:
 
 
 def main(inputfile, outputfile):
-    appointments = json_input.load(inputfile)
+    appointments = ConfigLoader().load(inputfile)
 
     cal = Calendar()
     cal.add("prodid", "-//cal-generator//dn-kr.de//")
