@@ -1,4 +1,5 @@
 import datetime
+from pathlib import Path
 
 import tzlocal
 from icalendar import Alarm, Calendar, Event
@@ -46,7 +47,7 @@ def new_event_with_alarm(appointment: App) -> Event:
 
 
 def main(inputfile, outputfile):
-    appointments = ConfigLoader().load(inputfile)
+    appointments = ConfigLoader().load(Path(inputfile))
 
     cal = Calendar()
     cal.add("prodid", "-//cal-generator//dn-kr.de//")
