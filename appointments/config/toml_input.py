@@ -1,4 +1,3 @@
-import datetime
 from pathlib import Path
 from typing import List
 
@@ -11,8 +10,8 @@ def load(file: Path) -> List[App]:
     data = toml.load(file)
 
     result = list()
-    if 'dates' in data.keys():
-        appdates = data['dates']
-        for (key, value) in appdates.items():
-            result.append(App(description=value, date=datetime.date.fromisoformat(key)))
+    for (key, value) in data.items():
+        if type(value) is dict:
+            for date in value['dates']:
+                result.append(App(description=key, date=date))
     return result

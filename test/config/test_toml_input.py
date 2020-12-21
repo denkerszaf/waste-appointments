@@ -1,4 +1,3 @@
-import datetime
 from pathlib import Path
 
 from appointments.config.toml_input import load
@@ -13,11 +12,10 @@ def test_empty_file(tmp_path: Path) -> None:
 
 
 def test_single_item(tmp_path: Path) -> None:
-    file = write_content(tmp_path, "version = 2\n", "[dates]\n", "2020-01-04 = 'Wertstoff'\n")
+    file = write_content(tmp_path, "version = 2\n", "[Wertstoff]\n", "dates = [ 2020-01-04 ]\n")
     actual = load(file)
 
     assert isinstance(actual[0], App)
-    assert actual[0] == App(date=datetime.date.fromisoformat('2020-01-04'), description='Wertstoff')
 
 
 def write_content(tmp_path: Path, *args) -> Path:
