@@ -58,7 +58,3 @@ def main(inputfile, outputfile):
 
     with open(outputfile, "wb") as ical_file:
         ical_file.write(cal.to_ical())
-
-
-if __name__ == "__main__":
-    main("data/Papiermüll.json", "output.ics")
