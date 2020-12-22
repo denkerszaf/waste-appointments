@@ -4,6 +4,7 @@ PRODID:-//cal-generator//dn-kr.de//
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20210109
+UID:1_1610150400_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -13,6 +14,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20210109
+UID:1_1610150400_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -22,6 +24,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20210206
+UID:1_1612569600_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -31,6 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20210306
+UID:1_1614988800_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -40,6 +44,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20210403
+UID:1_1617408000_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -49,6 +54,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20210501
+UID:1_1619827200_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -58,6 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20210608
+UID:1_1623110400_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -67,6 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20210706
+UID:1_1625529600_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -76,6 +84,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20210803
+UID:1_1627948800_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -85,6 +94,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20210910
+UID:1_1631232000_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -94,6 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20211008
+UID:1_1633651200_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -103,6 +114,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20211105
+UID:1_1636070400_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -112,6 +124,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20211201
+UID:1_1638316800_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -121,6 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20211203
+UID:1_1638489600_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -130,6 +144,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Altpapier
 DTSTART;VALUE=DATE:20220108
+UID:1_1641600000_Altpapier@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Altpapier rausstellen
@@ -139,6 +154,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210529
+UID:1_1622246400_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -148,6 +164,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210611
+UID:1_1623369600_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -157,6 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210625
+UID:1_1624579200_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -166,6 +184,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210709
+UID:1_1625788800_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -175,6 +194,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210723
+UID:1_1626998400_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -184,6 +204,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210806
+UID:1_1628208000_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -193,6 +214,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210820
+UID:1_1629417600_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -202,6 +224,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210903
+UID:1_1630627200_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -211,6 +234,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210917
+UID:1_1631836800_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -220,6 +244,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20211001
+UID:1_1633046400_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -229,6 +254,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20211015
+UID:1_1634256000_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -238,6 +264,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20211029
+UID:1_1635465600_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -247,6 +274,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20211112
+UID:1_1636675200_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -256,6 +284,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20211126
+UID:1_1637884800_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -265,6 +294,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20211210
+UID:1_1639094400_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -274,6 +304,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20211227
+UID:1_1640563200_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -283,6 +314,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210109
+UID:1_1610150400_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -292,6 +324,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210123
+UID:1_1611360000_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -301,6 +334,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210205
+UID:1_1612483200_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -310,6 +344,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210219
+UID:1_1613692800_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -319,6 +354,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210305
+UID:1_1614902400_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -328,6 +364,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210319
+UID:1_1616112000_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -337,6 +374,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210406
+UID:1_1617667200_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -346,6 +384,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210417
+UID:1_1618617600_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -355,6 +394,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210430
+UID:1_1619740800_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -364,6 +404,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biomuell
 DTSTART;VALUE=DATE:20210515
+UID:1_1621036800_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Biomuell rausstellen
@@ -373,6 +414,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extra_Abfuhr_Biomuell
 DTSTART;VALUE=DATE:20210507
+UID:1_1620345600_Extra_Abfuhr_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Extra_Abfuhr_Biomuell rausstellen
@@ -382,6 +424,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extra_Abfuhr_Biomuell
 DTSTART;VALUE=DATE:20210521
+UID:1_1621555200_Extra_Abfuhr_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Extra_Abfuhr_Biomuell rausstellen
@@ -391,6 +434,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extra_Abfuhr_Biomuell
 DTSTART;VALUE=DATE:20210605
+UID:1_1622851200_Extra_Abfuhr_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Extra_Abfuhr_Biomuell rausstellen
@@ -400,6 +444,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extra_Abfuhr_Biomuell
 DTSTART;VALUE=DATE:20210618
+UID:1_1623974400_Extra_Abfuhr_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Extra_Abfuhr_Biomuell rausstellen
@@ -409,6 +454,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extra_Abfuhr_Biomuell
 DTSTART;VALUE=DATE:20210702
+UID:1_1625184000_Extra_Abfuhr_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Extra_Abfuhr_Biomuell rausstellen
@@ -418,6 +464,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extra_Abfuhr_Biomuell
 DTSTART;VALUE=DATE:20210716
+UID:1_1626393600_Extra_Abfuhr_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Extra_Abfuhr_Biomuell rausstellen
@@ -427,6 +474,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extra_Abfuhr_Biomuell
 DTSTART;VALUE=DATE:20210730
+UID:1_1627603200_Extra_Abfuhr_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Extra_Abfuhr_Biomuell rausstellen
@@ -436,6 +484,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extra_Abfuhr_Biomuell
 DTSTART;VALUE=DATE:20210813
+UID:1_1628812800_Extra_Abfuhr_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Extra_Abfuhr_Biomuell rausstellen
@@ -445,6 +494,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extra_Abfuhr_Biomuell
 DTSTART;VALUE=DATE:20210827
+UID:1_1630022400_Extra_Abfuhr_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Extra_Abfuhr_Biomuell rausstellen
@@ -454,6 +504,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extra_Abfuhr_Biomuell
 DTSTART;VALUE=DATE:20210910
+UID:1_1631232000_Extra_Abfuhr_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Extra_Abfuhr_Biomuell rausstellen
@@ -463,6 +514,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extra_Abfuhr_Biomuell
 DTSTART;VALUE=DATE:20210924
+UID:1_1632441600_Extra_Abfuhr_Biomuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Extra_Abfuhr_Biomuell rausstellen
@@ -472,6 +524,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210111
+UID:1_1610323200_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -481,6 +534,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210122
+UID:1_1611273600_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -490,6 +544,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210204
+UID:1_1612396800_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -499,6 +554,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210218
+UID:1_1613606400_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -508,6 +564,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210304
+UID:1_1614816000_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -517,6 +574,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210318
+UID:1_1616025600_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -526,6 +584,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210401
+UID:1_1617235200_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -535,6 +594,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210416
+UID:1_1618531200_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -544,6 +604,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210429
+UID:1_1619654400_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -553,6 +614,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210514
+UID:1_1620950400_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -562,6 +624,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210528
+UID:1_1622160000_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -571,6 +634,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210610
+UID:1_1623283200_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -580,6 +644,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210624
+UID:1_1624492800_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -589,6 +654,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210708
+UID:1_1625702400_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -598,6 +664,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210722
+UID:1_1626912000_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -607,6 +674,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210805
+UID:1_1628121600_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -616,6 +684,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210819
+UID:1_1629331200_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -625,6 +694,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210902
+UID:1_1630540800_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -634,6 +704,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210916
+UID:1_1631750400_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -643,6 +714,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20210930
+UID:1_1632960000_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -652,6 +724,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20211014
+UID:1_1634169600_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -661,6 +734,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20211028
+UID:1_1635379200_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -670,6 +744,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20211111
+UID:1_1636588800_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -679,6 +754,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20211125
+UID:1_1637798400_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -688,6 +764,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20211209
+UID:1_1639008000_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -697,6 +774,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Restmuell
 DTSTART;VALUE=DATE:20211223
+UID:1_1640217600_Restmuell@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Restmuell rausstellen
@@ -706,6 +784,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210104
+UID:1_1609718400_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -715,6 +794,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210116
+UID:1_1610755200_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -724,6 +804,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210128
+UID:1_1611792000_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -733,6 +814,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210211
+UID:1_1613001600_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -742,6 +824,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210225
+UID:1_1614211200_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -751,6 +834,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210311
+UID:1_1615420800_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -760,6 +844,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210325
+UID:1_1616630400_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -769,6 +854,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210410
+UID:1_1618012800_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -778,6 +864,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210422
+UID:1_1619049600_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -787,6 +874,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210506
+UID:1_1620259200_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -796,6 +884,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210520
+UID:1_1621468800_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -805,6 +894,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210604
+UID:1_1622764800_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -814,6 +904,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210617
+UID:1_1623888000_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -823,6 +914,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210701
+UID:1_1625097600_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -832,6 +924,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210715
+UID:1_1626307200_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -841,6 +934,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210729
+UID:1_1627516800_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -850,6 +944,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210812
+UID:1_1628726400_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -859,6 +954,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210826
+UID:1_1629936000_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -868,6 +964,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210909
+UID:1_1631145600_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -877,6 +974,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20210923
+UID:1_1632355200_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -886,6 +984,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20211007
+UID:1_1633564800_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -895,6 +994,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20211021
+UID:1_1634774400_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -904,6 +1004,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20211105
+UID:1_1636070400_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -913,6 +1014,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20211118
+UID:1_1637193600_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -922,6 +1024,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20211202
+UID:1_1638403200_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -931,6 +1034,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20211216
+UID:1_1639612800_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
@@ -940,6 +1044,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wertstoff
 DTSTART;VALUE=DATE:20211231
+UID:1_1640908800_Wertstoff@waste-appointments.scripts.dn-kr.de
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Wertstoff rausstellen
