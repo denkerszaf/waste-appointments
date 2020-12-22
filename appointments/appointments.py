@@ -24,6 +24,7 @@ def new_event(appointment: App) -> Event:
     event = Event()
     event.add("summary", appointment.description)
     event.add("dtstart", appointment.date)
+    event.add("uid", appointment.uid)
 
     return event
 
