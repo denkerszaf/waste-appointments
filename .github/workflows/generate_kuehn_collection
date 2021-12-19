@@ -1,15 +1,15 @@
 ---
-  - name: generate ical from kuehn
-    on: [push]
-    jobs:
-       regenerate-calendar:
-          runs-on: ubuntu-latest
-          steps:
-              - uses: actions/checkout@v2
-              - uses: actions/setup-python@v2.3.1
-                with:
-                   # Version range or exact version of a Python version to use, using SemVer's version range syntax.
-                   python-version:  3.x # optional, default is 3.x
-                   # Used to specify a package manager for caching in the default directory. Supported values: pip, pipenv.
-                   cache: pipenv # optional 
+name: generate ical from kuehn
+on: [push]
+jobs:
+   regenerate-calendar:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - uses: actions/setup-python@v2.3.1
+          with:
+            # Version range or exact version of a Python version to use, using SemVer's version range syntax.
+            python-version:  3.x # optional, default is 3.x
+            # Used to specify a package manager for caching in the default directory. Supported values: pip, pipenv.
+            cache: pipenv # optional 
 
