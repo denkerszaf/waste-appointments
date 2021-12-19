@@ -12,6 +12,18 @@ jobs:
             python-version:  3.x # optional, default is 3.x
             # Used to specify a package manager for caching in the default directory. Supported values: pip, pipenv.
             cache: pipenv # optional
-        - run: python appointments/calender_throughput.py > output/2022.ics
+        - run: |
+            python -m pip install --upgrade pipenv wheel
+        - id: cache-pipenv
+          uses: actions/cache@v1
+          with:
+             path: ~/.local/share/virtualenvs
+             key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
+
+        - name: Install dependencies
+          if: steps.cache-pipenv.outputs.cache-hit != 'true'
+          run: |
+            pipenv install --deploy --dev   
+        - run: pipenv run python appointments/calender_throughput.py > output/2022.ics
         
 
