@@ -43,6 +43,8 @@ jobs:
                path: kuehl_calendar.ics
           - run: |
               git add kuehl_calendar.ics
+              git config --global user.email "github-actions@github.dn-kr.de"
+              git config --global user.name "Automatic ics update"
               git commit -m 'Update calendar file'
               git push 
           
