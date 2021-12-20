@@ -1,7 +1,14 @@
 ---
 name: generate ical from kuehn
-on: [push]
+on: 
+   push:
+   schedule:
+    # * is a special character in YAML so you have to quote this string
+      - cron:  '28 6 * * *
+
 jobs:
+   env:
+      CALENDAR_NAME: blauetonne.ics
    regenerate-calendar:
       runs-on: ubuntu-latest
       steps:
@@ -24,11 +31,12 @@ jobs:
           if: steps.cache-pipenv.outputs.cache-hit != 'true'
           run: |
             pipenv install --deploy --dev   
-        - run: pipenv run python appointments/calender_throughput.py > output/2022.ics
+        - run: pipenv run python appointments/calender_throughput.py > ${{ env.CALENDAR_NAME }}
         - uses: actions/upload-artifact@v2
           with:
-            path: output/2022.ics
+            path: ${{ env.CALENDAR_NAME }}
             name: kuehl_calendar
+         
          
    publish-new-calendar:
        needs: regenerate-calendar
@@ -40,13 +48,16 @@ jobs:
           - uses: actions/download-artifact@v2.1.0
             with: 
                name: kuehl_calendar
-               path: kuehl_calendar.ics
+               path: "${{ RUNNER_TEMP }}/input" 
           - run: |
-              git add kuehl_calendar.ics
-              git config --global user.email "github-actions@github.dn-kr.de"
-              git config --global user.name "Automatic ics update"
-              git commit -m 'Update calendar file'
-              git push 
+              cp "${{ RUNNER_TEMP }}/input/${{ env.CALENDAR_NAME }}" "${{ env.CALENDAR_NAME }}"
+              if  [ $(git diff --exit-code "${{ env.CALENDAR_NAME }}" ]; then 
+                  git add kuehl_calendar.ics
+                  git config --global user.email "github-actions@github.dn-kr.de"
+                  git config --global user.name "Automatic ics update"
+                  git commit -m 'Update calendar file'
+                  git push
+              fi 
           
        
         
