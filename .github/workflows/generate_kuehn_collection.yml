@@ -49,9 +49,9 @@ jobs:
           - uses: actions/download-artifact@v2.1.0
             with: 
                name: kuehl_calendar
-               path: "${{ env.RUNNER_TEMP }}/input" 
+               path: "input" 
           - run: |
-              cp "${{ env.RUNNER_TEMP }}/input/${{ env.CALENDAR_NAME }}" "${{ env.CALENDAR_NAME }}"
+              cp "input/${{ env.CALENDAR_NAME }}" "${{ env.CALENDAR_NAME }}"
               if  [ $(git diff --exit-code "${{ env.CALENDAR_NAME }}" ]; then 
                   git add kuehl_calendar.ics
                   git config --global user.email "github-actions@github.dn-kr.de"
