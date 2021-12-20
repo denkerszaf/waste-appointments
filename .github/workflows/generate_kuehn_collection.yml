@@ -29,6 +29,22 @@ jobs:
           with:
             path: output/2022.ics
             name: kuehl_calendar
-        
+         
+   publish-new-calendar:
+       runs-on: ubuntu-latest
+       steps:
+          -uses: actions/checkout@v2
+           with:
+              ref: gh-pages
+          -uses: actions/download-artifact@v2.1.0
+           with: 
+              name: kuehl_calendar
+              path: kuehl_calendar.ics
+          - run: |
+              git add kuehl_calendar.ics
+              git commit -m 'Update calendar file'
+              git push 
+          
+       
         
 
