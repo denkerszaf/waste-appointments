@@ -1,14 +1,15 @@
 ---
 name: generate ical from kuehn
 on: 
-   push
+   push:
    schedule:
-    # * is a special character in YAML so you have to quote this string
-      - cron:  '28 6 * * *
+      # * is a special character in YAML so you have to quote this string
+      - cron:  '28 6 * * *'
+
+env:
+   CALENDAR_NAME: blauetonne.ics
 
 jobs:
-   env:
-      CALENDAR_NAME: blauetonne.ics
    regenerate-calendar:
       runs-on: ubuntu-latest
       steps:
