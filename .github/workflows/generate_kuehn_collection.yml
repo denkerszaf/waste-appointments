@@ -53,7 +53,7 @@ jobs:
           - run: |
               if ! diff --brief -N -u "input/${{ env.CALENDAR_NAME }}" "${{ env.CALENDAR_NAME }}" ; then
                   cp "input/${{ env.CALENDAR_NAME }}" "${{ env.CALENDAR_NAME }}"
-                  git add kuehl_calendar.ics
+                  git add "${{ env.CALENDAR_NAME }}"
                   git config --global user.email "github-actions@github.dn-kr.de"
                   git config --global user.name "Automatic ics update"
                   git commit -m 'Update calendar file'
