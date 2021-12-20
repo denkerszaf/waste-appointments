@@ -31,6 +31,7 @@ jobs:
             name: kuehl_calendar
          
    publish-new-calendar:
+       needs: regenerate-calendar
        runs-on: ubuntu-latest
        steps:
           - uses: actions/checkout@v2
