@@ -52,7 +52,7 @@ jobs:
                path: "input" 
           - run: |
               cp "input/${{ env.CALENDAR_NAME }}" "${{ env.CALENDAR_NAME }}"
-              if  [ $(git diff --exit-code "${{ env.CALENDAR_NAME }}" ]; then 
+              if  [ $(git diff --exit-code "${{ env.CALENDAR_NAME }}") ]; then 
                   git add kuehl_calendar.ics
                   git config --global user.email "github-actions@github.dn-kr.de"
                   git config --global user.name "Automatic ics update"
