@@ -25,7 +25,7 @@ jobs:
           run: |
             pipenv install --deploy --dev   
         - run: pipenv run python appointments/calender_throughput.py > output/2022.ics
-        - uses: actions/upload-artefact@v2
+        - uses: actions/upload-artifact@v2
           with:
             path: output/2022.ics
             name: kuehl_calendar
