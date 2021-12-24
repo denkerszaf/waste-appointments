@@ -2,9 +2,9 @@
 name: generate ical from kuehn
 on: 
    push:
-   schedule:
+   #schedule:
       # * is a special character in YAML so you have to quote this string
-      - cron:  '28 6 * * *'
+      #- cron:  '28 6 * * *'
 
 env:
    CALENDAR_NAME: blauetonne.ics
