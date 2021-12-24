@@ -22,5 +22,5 @@ for event in calendar.walk('vevent'):
     event.subcomponents = [ sc for sc in event.subcomponents if type(sc) != 'icalendar.cal.Alarm' ] # delete all alarms
     event.add_component(create_alarm(event['DTSTART']))
 
-print(calendar.to_ical())
+print(calendar.to_ical().decode('UTF-8'))
 
