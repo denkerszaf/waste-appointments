@@ -13,8 +13,8 @@ jobs:
    regenerate-calendar:
       runs-on: ubuntu-latest
       steps:
-        - uses: actions/checkout@v2
-        - uses: actions/setup-python@v2.3.1
+        - uses: actions/checkout@v3
+        - uses: actions/setup-python@v4
           with:
             # Version range or exact version of a Python version to use, using SemVer's version range syntax.
             python-version:  3.x # optional, default is 3.x
@@ -23,7 +23,7 @@ jobs:
         - run: |
             python -m pip install --upgrade pipenv wheel
         - id: cache-pipenv
-          uses: actions/cache@v1
+          uses: actions/cache@v3
           with:
              path: ~/.local/share/virtualenvs
              key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
@@ -33,7 +33,7 @@ jobs:
           run: |
             pipenv install --deploy --dev   
         - run: pipenv run python appointments/calender_throughput.py > ${{ env.CALENDAR_NAME }}
-        - uses: actions/upload-artifact@v2
+        - uses: actions/upload-artifact@v3
           with:
             path: ${{ env.CALENDAR_NAME }}
             name: kuehl_calendar
@@ -43,7 +43,7 @@ jobs:
        needs: regenerate-calendar
        runs-on: ubuntu-latest
        steps:
-          - uses: actions/checkout@v2
+          - uses: actions/checkout@v3
             with:
               ref: gh-pages
           - uses: actions/download-artifact@v2.1.0
